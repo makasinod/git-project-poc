@@ -16,3 +16,7 @@ class TestRunModules:
     def test_module2_negative(self):
         mod2 = Module2()
         assert mod2.greet() != "Hello from Module 1!"
+
+    def test_module1_negative_by_text(self):
+        mod1 = Module1()
+        assert mod1.greet() != "Hello from Module 1 again!"
