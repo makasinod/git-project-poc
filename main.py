@@ -7,4 +7,4 @@ def main():
     logger.info(f"Module1: {mod1.greet()}")
     logger.info(f"Module2: {mod2.greet()}")
 
-print('hello')
+print('hello team')
