@@ -11,6 +11,10 @@ class Module1:
         self.logger.info("Greet method called")
         return f"Hello from {self.name}!"
     
+    def farewell(self):
+        self.logger.info("Farewell from Module1")
+        return f"Goodbye from {self.name}!"
+    
 if __name__ == "__main__":
     module = Module1()
     print(module.greet())
