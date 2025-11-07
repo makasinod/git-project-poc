@@ -8,6 +8,7 @@ class Module1:
         self.name = "Module 1"
 
     def greet(self):
+        self.logger.info("Greet method called")
         return f"Hello from {self.name}!"
     
 if __name__ == "__main__":
